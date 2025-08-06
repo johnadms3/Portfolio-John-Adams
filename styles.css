@@ -1,0 +1,63 @@
+body {
+    background-color: #3A3042;
+    padding: 1000;
+    margin: 1000;
+    font-family:'Comic Neue',fantasy;
+}
+
+/* NAV-BAR */
+.Nav-Bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #21A179;
+    box-shadow: 5px 10px #A599B5;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+#landing-greeting{
+    font-size: 30px;
+}
+
+#navLinks{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    color:#E8AA14
+}
+
+/* Scrolling-Picture */
+.mainPhoto{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 80px;
+    width: 300px;
+    height: 500px;
+    border: 3px solid #73AD21;
+
+}
+/* Projects/Project Cards */
+
+.cards{
+    display:flex;
+    flex-direction:row;
+}
+
+.project-card{
+    width: 300px;
+    border: 2px solid #21A179;
+    padding: 50px;
+    margin: 20px;
+    box-shadow:3px 5px #A599B5;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
