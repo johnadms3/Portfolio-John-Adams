@@ -29,12 +29,32 @@ body {
     display:flex;
     gap: 30px;
     flex-direction: row;
-    color:#E8AA14
+}
+
+.navLinks:link {
+  color: #E8AA14;
+}
+
+/* visited link */
+a:visited {
+  color: #21A179;
+}
+
+/* mouse over link */
+a:hover {
+  color: #BF0603;
+}
+
+/* selected link */
+a:active {
+  color: #A599B5;
 }
 
 .Section-title{
     display:flex;
-
+    padding-left: 380px;
+    font-size:40px;
+    margin:0px;
 }
 
 /* === Scrolling-Picture === */
@@ -62,6 +82,7 @@ body {
     display:flex;
     align-items:center;
     font-size: 25px;
+    flex-direction: column;
 }
 
 .button {
@@ -124,4 +145,22 @@ body {
     justify-content:center;
     align-items: center;
     font-size: 25px;
+}
+
+/* === Contact Me === */
+
+.connect{
+    width:300px;
+    display:flex;
+    flex-direction:row;
+    margin-left:325px;
+    justify-content: space-evenly;
+}
+/* === Footer === */
+
+.footer{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-evenly;
+    justify-content: flex-end;
 }
