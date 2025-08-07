@@ -32,11 +32,17 @@ body {
     color:#E8AA14
 }
 
+.Section-title{
+    display:flex;
+
+}
+
 /* === Scrolling-Picture === */
 .mainPhoto{
     display: flex;
     justify-content: end;
-    position: absolute;
+    position: fixed;
+    bottom: 5px;
     right: 80px;
     width: 300px;
     height: 500px;
@@ -58,6 +64,28 @@ body {
     font-size: 25px;
 }
 
+.button {
+    background-color: #21a179;
+    border: none;
+    color: #BF0603;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration:;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #a599b5;
+  color: #E8AA14;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.646), 0 17px 50px 0 rgba(0, 0, 0, 0.644);
+}
+
 /* Projects/Project Cards */
 
 .cards{
@@ -75,18 +103,25 @@ body {
     display:flex;
     flex-direction: column;
     align-items:center;
-
 }
+
+.project-links{
+    display:flex;
+    flex-direction: row;
+}
+
 
 /* === Interests/About Me === */
 
 .About-Me{
     width: 900px;
     border: 2px solid #21A179;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     box-shadow:3px 5px 3px 5px #A599B5;
     border-radius: 25px;
-    display:block;
-    align-items:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
 }
