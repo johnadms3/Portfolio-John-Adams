@@ -31,7 +31,7 @@ body {
     flex-direction: row;
 }
 
-.navLinks:link {
+a:link {
   color: #E8AA14;
 }
 
@@ -91,7 +91,6 @@ a:active {
     color: #BF0603;
     padding: 12px 12px;
     text-align: center;
-    text-decoration:;
     border-radius: 50%;
     display: inline-block;
     font-size: 16px;
